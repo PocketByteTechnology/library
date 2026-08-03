@@ -1,0 +1,21 @@
+version: 0.5.1
+description: Official library for Pocketbyte.
+url: https://pocketbyte.co
+repository: https://github.com/PocketByteTechnology/library
+license: Apache-2.0
+targets:
+  - esp32s3
+maintainers:
+  - Om Rawaley omrawaley@icloud.com
+dependencies:
+  idf:
+    version: ">=4.1.0"
+  lvgl/lvgl:
+    version: ^9.4.0
+    registry_url: https://components.espressif.com
+  espressif/icm42670:
+    version: ^2.1.0~1
+    registry_url: https://components.espressif.com
+  robotman2412/pax-gfx:
+    version: ^2.0.7
+    registry_url: https://components.espressif.com
